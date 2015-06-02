@@ -1,0 +1,48 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:layout_width="wrap_content"
+        android:hint="@string/pname"
+        android:layout_height="wrap_content"
+        android:id="@+id/tname"
+        />
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:id="@+id/bname"
+        />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:id="@+id/view1"
+        android:scrollbars="vertical"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:id="@+id/savings"
+        android:scrollbars="vertical"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:id="@+id/carinfo"
+        android:scrollbars="vertical"/>
+    
+</LinearLayout>

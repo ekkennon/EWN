@@ -1,0 +1,25 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+   <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textIsSelectable="true"
+        android:id="@+id/ci"
+        android:scrollbars="vertical"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="@string/race"
+        android:id="@+id/race"
+        android:scrollbars="vertical"/>
+   
+</LinearLayout>
